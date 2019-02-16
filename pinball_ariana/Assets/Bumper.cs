@@ -4,39 +4,40 @@ using UnityEngine;
 
 public class Bumper : MonoBehaviour
 {
-    public Score bumpScore;
-  private int timer = 0;
-  private Vector3 scaleMod;
+    public Score thescore;
+
+    private int timer = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-scaleMod = this.transform.localScale;
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-      if (timer == 0)
-      {
-this.transform.localScale = scaleMod;
-
-      } else
-      {
-timer--;
-      }
+        if (timer == 0)
+        {
+            this.GetComponent<ConstantForce>().enabled = false;
+        }
+        else
+        {
+            Debug.Log(timer);
+            timer--;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (timer == 0)
         {
-            bumpScore.AddScore(5);
-            bumpScore.AddMultiplier();
+            thescore.AddScore(5);
+            thescore.Addmultiplier(1);
         }
 
         this.GetComponent<AudioSource>().Play();
-this.transform.localScale = scaleMod * 1.5f;
-timer = 9;
-
+        this.GetComponent<ConstantForce>().enabled = true;
+        timer = 3;
     }
 }

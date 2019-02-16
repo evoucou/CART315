@@ -2,29 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flipper : MonoBehaviour {
-    // press a to move flipper
-    //turn on motor
-    // Use this for initialization
-    public Score bumpScore;
-	public string button = "flipperR";
+public class Flipper : MonoBehaviour
+{
+    public Score thescore;
+    public string button = "LeftFlipper";
 
-	void Start () {
-		
-	}
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
-	// Update is called once per frame
-	void FixedUpdate () {
-	// whether button is pressed or not this is called the branch
-		if (Input.GetButton (button)) {
-			//check the use motor when any key is pressed
-			this.GetComponent<HingeJoint> ().useMotor = true;
-            bumpScore.ResetMultiplier();
-		} 
-		else {
-			//uncheck the use motor when no key is pressed
-			this.GetComponent<HingeJoint> ().useMotor = false;	
-		}
-			
-	}
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        if (Input.GetButton(button))
+        {
+            this.GetComponent<HingeJoint>().useMotor = true;
+            thescore.ResetMultiplier();
+        }
+        else
+        {
+            this.GetComponent<HingeJoint>().useMotor = false;
+        }
+    }
 }
