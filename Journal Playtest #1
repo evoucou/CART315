@@ -1,0 +1,34 @@
+Journal for first playtest on Feb 20st
+
+Positive aspects about playtest experience
+- The coins look "yummmy" (spinning behaviour well done!)
+- Player is attracted to them, wants to collect them
+- They are appearing at different spots, it offers a great level of challenge/makes it interesting
+
+Aspects to improve
+- Nothing happens when player collects coins (no feedback), disappointment
+- Perhaps there should be some way of letting the player know when the coin is about to disappear
+- Coins are hard to catch sometimes, perhaps I need to rethink their spawnpoints
+- There should be more coins on the screen
+
+Overall:
+It is no surprise to me that the player was deceived when he realised nothing happens when he collects a coin. Fortunately, that is not
+a game mechanics choice, it's simply due to lack of time, and that feature will be implemented for sure for the next playtest. I need to
+think of strategic spawnpoints rather than being totally random (some should be harder to collect, some should be easier, etc...) There
+should be strong correlation between the bumper's position and the spawnpoints', as the bumpers direct the ball. Also, I need to work on
+the esthetics of my pinball game. The ball's behaviour seems slightly off, sometimes when it gets stuck in a corner it takes very
+long to come back into the game.
+
+What to implement for future playtest
+- Work on the relation between bumpers and tokens
+- Work on the tokens' spawning timer (has to be in relation to collision with ball and token. When one is collected, the spawntimer
+should reset to zero so that one doesn't reappear right away.)
+- Implement special tokens feature :
+  - Red token gives you an extra ball
+  - Yellow token gives you an extra life
+  - Blue token (not yet there) makes your flippers disappear for a short period
+  - Possibly a fourth one: Green token disables the bumpers
+- Modify the board to make it more esthetic (new bumpers, new flippers, etc.)
+- Think of tokens' esthetics: how to make players understand that some are bad and some are good?
+- Improve ball behaviour (lighter/faster? Bouncier?)
+ 
