@@ -14,10 +14,8 @@ public class DestroyScript : MonoBehaviour
     
     void OnCollisionEnter (Collision col)
     {
-        if(Time.time < destroyTime) {
             Destroy(gameObject);
             Debug.Log("collision");
-        }
     }
         
     
