@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bumper.cs" />
+     <Compile Include="Assets\DestroyScript.cs" />
      <Compile Include="Assets\Flipper.cs" />
      <Compile Include="Assets\gameover.cs" />
      <Compile Include="Assets\Launcher.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Score.cs" />
+     <Compile Include="Assets\SpawnItems.cs" />
      <Compile Include="Assets\TokenSpawn.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
