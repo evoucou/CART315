@@ -5038,7 +5038,7 @@ PrefabInstance:
     - target: {fileID: 2658548421440524153, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: destroyTime
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2658548421440524153, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
@@ -5122,7 +5122,7 @@ PrefabInstance:
     - target: {fileID: 8991207177782612187, guid: 6e8693a793da84b009cca4deb41a2a51,
         type: 3}
       propertyPath: destroyTime
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8991207177782612187, guid: 6e8693a793da84b009cca4deb41a2a51,
         type: 3}

@@ -6,7 +6,7 @@ public class SpawnItems : MonoBehaviour
 {
     
       public Transform[] SpawnPoints;
-    public float spawnRate = 3f;
+    public float spawnRate = 6.0f;
     public GameObject[] Tokens;
 
     
