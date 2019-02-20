@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,7 +23,7 @@ public class Bumper : MonoBehaviour
         }
         else
         {
-            Debug.Log(timer);
+            //Debug.Log(timer);
             timer--;
         }
     }

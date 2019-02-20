@@ -11,15 +11,21 @@ public class DestroyScript : MonoBehaviour
     void Start() {
             Destroy (gameObject, destroyTime);
     }
-    
-    void OnCollisionEnter (Collision col)
-    {
-            Destroy(gameObject);
-            Debug.Log("collision");
-    }
         
     
     void Update() {
         transform.Rotate (Vector3.right * Time.deltaTime * rotateSpeed);
     }
+    
+        
+    private void OnTriggerEnter (Collider ball)
+    {
+        if(ball.name == "Ball")
+        {
+            Destroy(this.gameObject);
+            Debug.Log("collision");
+        }
+            
+    }
+
 }
