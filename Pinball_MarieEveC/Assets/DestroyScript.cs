@@ -22,7 +22,7 @@ public class DestroyScript : MonoBehaviour
     {
         if(ball.name == "Ball")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             Debug.Log("collision");
         }
             

@@ -5,18 +5,18 @@ using UnityEngine;
 public class CollisionToken : MonoBehaviour
 {
     
-    void OnCollisionEnter (Collision col)
+    private void OnTriggerEnter (Collider token)
     {
-        if(col.gameObject.name == "RedToken")
-        {
-            Destroy(col.gameObject);
-            Debug.Log("collision red");
-        }
-                if(col.gameObject.name == "YellowToken")
-        {
-            Destroy(col.gameObject);
-            Debug.Log("collision yellow");
-        }
+//        if(token.name == "RedToken")
+//        {
+//            Destroy(token.gameObject);
+//            Debug.Log("collision red");
+//        }
+//               if(token.name == "YellowToken")
+//        {
+//            Destroy(token.gameObject);
+//            Debug.Log("collision yellow");
+//        }
     }
 
 }
