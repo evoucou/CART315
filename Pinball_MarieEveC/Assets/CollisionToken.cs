@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollisionToken : MonoBehaviour
 {
     
+    
     private void OnTriggerEnter (Collider token)
     {
 //        if(token.name == "RedToken")
