@@ -1,9 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class gameover : MonoBehaviour
 {
+    public Score thescore;
+    
     private Vector3 initialposition;
     public GameObject theball;
 
@@ -25,6 +27,8 @@ public class gameover : MonoBehaviour
         {
             Debug.Log("game over");
             theball.transform.position = initialposition;
+            thescore.ResetScore();
+            thescore.ResetMultiplier();
         }
     }
 }
