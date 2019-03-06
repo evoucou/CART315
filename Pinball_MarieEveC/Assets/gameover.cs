@@ -5,6 +5,7 @@ using UnityEngine;
 public class gameover : MonoBehaviour
 {
 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,10 @@ private void OnTriggerEnter(Collider collider)
         if (collider.gameObject == theball)
         {
                         theball.transform.position = initialposition;
+        
+            
+            //Destroy(clonedBall);
+            
             //Debug.Log("game over");
             if (ExtraLife.lifeNum == 0) {
             Score.score = 0;
@@ -39,16 +44,11 @@ private void OnTriggerEnter(Collider collider)
 //            Debug.Log("destroyed xtra ball"); 
 //         }
     }
-//    
-//        void ResetScore()
-//    {
-//        Score.score = 0;
-//    }
-//
-//    void ResetMultiplier()
-//    {
-//        Score.multiplier = 1;
-//    }
+    
+    public void instantiateXtraBall() {
+
+    }
+
 public
     GameObject theball;
     //Score thescore;

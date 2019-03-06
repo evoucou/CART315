@@ -124,7 +124,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint1
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -441,7 +441,7 @@ GameObject:
   m_Layer: 0
   m_Name: BallSpawn
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -473,7 +473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178924672}
   m_Layer: 0
-  m_Name: SpawnPoint1
+  m_Name: BallPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2068,7 +2068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378981265}
   m_Layer: 0
-  m_Name: SpawnPoint4
+  m_Name: BallPoint4
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2277,7 +2277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543828996}
   m_Layer: 0
-  m_Name: SpawnPoint3
+  m_Name: BallPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3319,7 +3319,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint8
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3590,7 +3590,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint4
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4248,7 +4248,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint7
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4278,7 +4278,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint2
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4314,7 +4314,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint5
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4342,7 +4342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1404043412}
   m_Layer: 0
-  m_Name: SpawnPoint2
+  m_Name: BallPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4374,7 +4374,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint3
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4675,7 +4675,7 @@ GameObject:
   m_Layer: 0
   m_Name: ItemSpawn
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4725,14 +4725,14 @@ MonoBehaviour:
   spawnRate: 12
   Tokens:
   - {fileID: 4569110764659694666, guid: 6e8693a793da84b009cca4deb41a2a51, type: 3}
-  - {fileID: 3295778881491231026, guid: 9b62676a469794b7eb923dad2399c93e, type: 3}
+  - {fileID: 3170132295411727678, guid: 9b62676a469794b7eb923dad2399c93e, type: 3}
 --- !u!43 &2056077123
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15004
+  m_Name: pb_Mesh7290
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4898,7 +4898,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint6
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5180,110 +5180,138 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a0c06075b3323437b98e491c80f808ab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f15e24134e0043a459da871096c72e7c, type: 3}
---- !u!1001 &3295778882164234946
+--- !u!1001 &3170132296137337186
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3295778881491231026, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727678, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_Name
       value: YellowToken
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.07
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.15
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.55
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231031, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727616, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: SpawnPoints.Array.size
+      propertyPath: ballSpawnPoints.Array.size
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: SpawnPoints.Array.data[0]
+      propertyPath: SpawnBallPoints.Array.data[0]
       value: 
       objectReference: {fileID: 178924672}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: SpawnPoints.Array.data[1]
+      propertyPath: SpawnBallPoints.Array.data[1]
       value: 
       objectReference: {fileID: 1404043412}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: SpawnPoints.Array.data[2]
+      propertyPath: SpawnBallPoints.Array.data[2]
       value: 
       objectReference: {fileID: 543828996}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: SpawnPoints.Array.data[3]
+      propertyPath: SpawnBallPoints.Array.data[3]
       value: 
       objectReference: {fileID: 378981265}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: xtraBall
+      propertyPath: ballSpawnPoints.Array.data[0]
       value: 
-      objectReference: {fileID: 3721162410275096823, guid: 2c9eaa31ebde147aeae96716aee4892a,
+      objectReference: {fileID: 178924672}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-    - target: {fileID: 3295778881491231027, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: ballPrefab
+      propertyPath: ballSpawnPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 3721162410275096823, guid: 2c9eaa31ebde147aeae96716aee4892a,
+      objectReference: {fileID: 1404043412}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
+      propertyPath: ballSpawnPoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 543828996}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
+        type: 3}
+      propertyPath: ballSpawnPoints.Array.data[3]
+      value: 
+      objectReference: {fileID: 378981265}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
+        type: 3}
+      propertyPath: ballSpawnPoints.Array.data[4]
+      value: 
+      objectReference: {fileID: 1296574357}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
+        type: 3}
+      propertyPath: ballSpawnPoints.Array.data[5]
+      value: 
+      objectReference: {fileID: 2103565266}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
+        type: 3}
+      propertyPath: ballSpawnPoints.Array.data[6]
+      value: 
+      objectReference: {fileID: 1195504241}
+    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
+        type: 3}
+      propertyPath: ballSpawnPoints.Array.data[7]
+      value: 
+      objectReference: {fileID: 961024317}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b62676a469794b7eb923dad2399c93e, type: 3}
 --- !u!1001 &3721162409790530727
