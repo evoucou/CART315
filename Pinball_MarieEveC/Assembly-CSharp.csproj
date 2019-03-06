@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BallCount.cs" />
      <Compile Include="Assets\Bumper.cs" />
      <Compile Include="Assets\CollisionToken.cs" />
      <Compile Include="Assets\DestroyScript.cs" />
@@ -73,7 +74,6 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\SpawnItems.cs" />
-     <Compile Include="Assets\TokenSpawn.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
