@@ -4713,6 +4713,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f838102727ac4272af11373c4d4c5c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballSpawnPoints:
+  - {fileID: 178924672}
+  - {fileID: 1404043412}
+  - {fileID: 543828996}
+  - {fileID: 378981265}
   SpawnPoints:
   - {fileID: 66519826}
   - {fileID: 1217182315}
@@ -4722,7 +4727,7 @@ MonoBehaviour:
   - {fileID: 2103565266}
   - {fileID: 1195504241}
   - {fileID: 961024317}
-  spawnRate: 12
+  spawnRate: 3
   Tokens:
   - {fileID: 4569110764659694666, guid: 6e8693a793da84b009cca4deb41a2a51, type: 3}
   - {fileID: 3170132295411727678, guid: 9b62676a469794b7eb923dad2399c93e, type: 3}
@@ -5249,31 +5254,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
         type: 3}
-      propertyPath: ballSpawnPoints.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: SpawnBallPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 178924672}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: SpawnBallPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1404043412}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: SpawnBallPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 543828996}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: SpawnBallPoints.Array.data[3]
-      value: 
-      objectReference: {fileID: 378981265}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
       propertyPath: ballSpawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 178924672}
@@ -5292,26 +5272,6 @@ PrefabInstance:
       propertyPath: ballSpawnPoints.Array.data[3]
       value: 
       objectReference: {fileID: 378981265}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: ballSpawnPoints.Array.data[4]
-      value: 
-      objectReference: {fileID: 1296574357}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: ballSpawnPoints.Array.data[5]
-      value: 
-      objectReference: {fileID: 2103565266}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: ballSpawnPoints.Array.data[6]
-      value: 
-      objectReference: {fileID: 1195504241}
-    - target: {fileID: 3170132295411727679, guid: 9b62676a469794b7eb923dad2399c93e,
-        type: 3}
-      propertyPath: ballSpawnPoints.Array.data[7]
-      value: 
-      objectReference: {fileID: 961024317}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b62676a469794b7eb923dad2399c93e, type: 3}
 --- !u!1001 &3721162409790530727

@@ -17,9 +17,9 @@ public class ExtraLife : MonoBehaviour
                    
     }
     
-        private void OnTriggerEnter (Collider ball)
+        private void OnTriggerEnter (Collider collider)
     {
-        if(ball.name == "Ball") {
+        if(collider.gameObject.tag == "ball") {
                 
                 Destroy(gameObject);
             Debug.Log("collided red");

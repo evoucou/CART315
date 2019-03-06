@@ -23,12 +23,12 @@ public class gameover : MonoBehaviour
     
 private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject == theball)
+        if (collider.gameObject.tag == "ball")
         {
-                        theball.transform.position = initialposition;
-        
+//                       collider.gameObject.transform.position = initialposition;
+        //if ballCount = 1
             
-            //Destroy(clonedBall);
+            Destroy(collider.gameObject);
             
             //Debug.Log("game over");
             if (ExtraLife.lifeNum == 0) {

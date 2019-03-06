@@ -29,11 +29,11 @@ public class ExtraBall : MonoBehaviour
 
     
     
-        private void OnTriggerEnter (Collider col)
+        private void OnTriggerEnter (Collider collider)
     {
                            int spawnIndex = Random.Range(0, ballSpawnPoints.Length);
             
-           if(col.name == "Ball") {
+           if(collider.gameObject.tag == "ball") {
                  Debug.Log("Before the clone is created. Spawn = " + spawnIndex);  
               
                 
@@ -45,7 +45,7 @@ clonedBall = (GameObject) Instantiate(ballPrefab, ballSpawnPoints[spawnIndex].po
                 
 Debug.Log("After the clone is created. Spawn = " + spawnIndex);
                 
-                Destroy(clonedBall, 10f);
+                //Destroy(clonedBall, 10f);
                 
             }
             
