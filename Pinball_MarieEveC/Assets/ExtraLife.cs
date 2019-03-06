@@ -6,18 +6,15 @@ public class ExtraLife : MonoBehaviour
 {
     
     //red token
-    
+    public static int lifeNum;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+         
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+    void update() {
+                   
     }
     
         private void OnTriggerEnter (Collider ball)
@@ -26,8 +23,12 @@ public class ExtraLife : MonoBehaviour
                 
                 Destroy(gameObject);
             Debug.Log("collided red");
+            lifeNum++;
+            
                                           
 }
             
     }
+    
+
 }

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ public class Flipper : MonoBehaviour
         if (Input.GetButton(button))
         {
             this.GetComponent<HingeJoint>().useMotor = true;
-            thescore.ResetMultiplier();
+            Score.score = 0;
         }
         else
         {

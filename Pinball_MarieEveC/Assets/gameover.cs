@@ -4,67 +4,59 @@ using UnityEngine;
 
 public class gameover : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
         initialposition = theball.transform.position;
         //targetInitialized = false;
+//        target = GameObject.Find("YellowToken").GetComponent<ExtraBall>().clonedBall;
     }
+    
 
     // Update is called once per frame
     void Update()
     { 
-        if (targetInitialized) {
-            
-//   void OnTriggerEnter(Collider collider) { 
-//    if (collider.gameObject == xtraBall) {
-//            Debug.Log("ballHit");
-//            Destroy(xtraBall); 
-            
-            
-        
-    } else {
-        targetInitialized = setTarget();
-    }            
+            Debug.Log("num lives: "+ExtraLife.lifeNum);
 }
     
-bool setTarget() 
-{
-//    test = GameObject.FindGameObjectWithTag("YellowToken");
-    if(GameObject.FindGameObjectWithTag("YellowToken"))
-     {
-        test = GameObject.FindGameObjectWithTag("YellowToken");
-        xtraBall = test.GetComponent<ExtraBall>().clonedBall;
-    }   
-//    xtraBall = GameObject.FindGameObjectWithTag("YellowToken").GetComponent<ExtraBall>().clonedBall;
-//        
-//    if (xtraBall)
-//    {
-//        return true;
-//    }
-    return false;
-}
 private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject == theball)
         {
+                        theball.transform.position = initialposition;
             //Debug.Log("game over");
-            theball.transform.position = initialposition;
-            thescore.ResetScore();
-            thescore.ResetMultiplier();
-            
-            Destroy(xtraBall);
+            if (ExtraLife.lifeNum == 0) {
+            Score.score = 0;
+            Score.multiplier = 1;
+   //Destroy(target);
+            //GameObject.Destroy(target); 
+            } else {
+                ExtraLife.lifeNum--;
+            }
           }  
 //         else if (collider.gameObject == ballClone) {
 //            Debug.Log("destroyed xtra ball"); 
 //         }
     }
+//    
+//        void ResetScore()
+//    {
+//        Score.score = 0;
+//    }
+//
+//    void ResetMultiplier()
+//    {
+//        Score.multiplier = 1;
+//    }
 public
     GameObject theball;
-    Score thescore;
-    GameObject test;
+    //Score thescore;
+    //GameObject test;
+    
  private
     Vector3 initialposition;
-    GameObject xtraBall;  
-    bool targetInitialized=false;
+    //bool xtraBall;  
+    //bool targetInitialized=false;
+    //GameObject target;
 }

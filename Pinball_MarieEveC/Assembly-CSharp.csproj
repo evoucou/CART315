@@ -61,6 +61,7 @@
      <Compile Include="Assets\Flipper.cs" />
      <Compile Include="Assets\gameover.cs" />
      <Compile Include="Assets\Launcher.cs" />
+     <Compile Include="Assets\life.cs" />
      <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />

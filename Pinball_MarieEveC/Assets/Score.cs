@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    int score = 0;
-    int multiplier = 1;
+    static public int score = 0;
+    static public int multiplier = 1;
 
     public TMPro.TextMeshPro multipliertext;
 
@@ -32,13 +32,4 @@ public class Score : MonoBehaviour
         multiplier = multiplier + multiplierpoints;
     }
 
-    public void ResetScore()
-    {
-        score = 0;
-    }
-
-    public void ResetMultiplier()
-    {
-        multiplier = 1;
-    }
 }
