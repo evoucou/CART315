@@ -1,0 +1,32 @@
+Journal for second playtest on March 6th
+Pinball game project
+
+What has been added for this playtest
+- Both red token and yellow token's special feature has been implemented and work perfectly in harmony.
+  - Obviously, you can now collect the tokens (collision detected)
+  - Red token makes an extra ball appear, yellow token gives you an extra life.
+  - When you get extra balls, you will not lose a life until the last ball is gone.
+  - When your life count is at 0, your whole score resets.
+
+Positive aspects about playtest experience
+- 
+
+Aspects to improve or suggestions
+- Everytime you lose a ball, wether last one or not, the multiplier resets to 1, or else it is too easy to get a very high score.
+- There could be a token that does something bad, so that you actually do not want too many balls or it will disadvantage you.
+- 
+
+What I still have to work on (from last playtest)
+
+----MANDATORY
+- Work on the disposition of bumpers in regards to tokens (some spawnpoints easier to collect than other)
+- Work on the tokens' spawning timer (has to be in relation to collision with ball and token. When one is collected, the spawntimer
+should reset to zero so that one doesn't reappear right away.)
+- Implement at least one bad special token :
+  - Blue token: disables your flippers. (initially the idea was to make them disappear)
+- Think of tokens' esthetics: how to make players understand that some are bad and some are good?
+
+----DETAILS
+- Modify the board to make it more esthetic (new bumpers, new flippers, etc.)
+- Improve ball behaviour (lighter/faster? Bouncier?)
+- Possibly a fourth token?
