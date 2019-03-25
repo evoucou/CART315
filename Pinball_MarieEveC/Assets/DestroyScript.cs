@@ -19,23 +19,5 @@ public class DestroyScript : MonoBehaviour
     void Update() {
         transform.Rotate (Vector3.right * Time.deltaTime * rotateSpeed);     
     }
-    
-        
-//            if(gameObject.name == "RedToken" || gameObject.name == "RedToken(Clone)") {
-//                
-//                Destroy(gameObject);
-//            //Debug.Log("collision Red");
-//                //redTokenActive = true;
-//                                          }
-//       if(gameObject.name == "YellowToken" || gameObject.name == "YellowToken(Clone)") {
-//           
-//                Destroy(gameObject);
-//            //Debug.Log("collision Yellow");
-//           //yellowTokenActive = true;
-//                                          }
-//        }
-            
-    
-    
 
 }
