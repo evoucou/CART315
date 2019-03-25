@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8642600455148294657}
   - component: {fileID: 179228152985491509}
   - component: {fileID: 5335545473787217740}
-  - component: {fileID: 1109171445960184548}
+  - component: {fileID: 5784306930450418345}
   m_Layer: 0
   m_Name: BlueToken
   m_TagString: Untagged
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21b3c160d5f946bca248f42a10923c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyTime: 20
+  destroyTime: 10
   rotateSpeed: 600
 --- !u!65 &5335545473787217740
 BoxCollider:
@@ -107,7 +107,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 3, z: 1.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1109171445960184548
+--- !u!114 &5784306930450418345
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,14 +116,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2650797576442200228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c8e9393d41f2467a80f44c7676f588a, type: 3}
+  m_Script: {fileID: 11500000, guid: 065f2eefcaf794c10af3289afcd2d913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballSpawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ballPrefab: {fileID: 3721162410275096823, guid: 2c9eaa31ebde147aeae96716aee4892a,
-    type: 3}
-  clonedBall: {fileID: 0}

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Flipper : MonoBehaviour
 {
-    public Score thescore;
     public string button = "LeftFlipper";
 
     // Start is called before the first frame update
