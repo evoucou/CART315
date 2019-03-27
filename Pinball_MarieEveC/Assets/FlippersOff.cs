@@ -6,51 +6,44 @@ public class FlippersOff : MonoBehaviour
 {
     
     private GameObject[] flippers;
-    private float timer;
-    private float waitTime = 5.0f;
-    private bool targetHit;
+    private int timer;
+    //private bool targetHit;
     
     void Start()
     {
-       targetHit = false;
+       //targetHit = false;
        flippers = GameObject.FindGameObjectsWithTag("flipper");
-       timer = 0;
-    }
-
-    void FixedUpdate() {
-        //Debug.Log("targetHit : " + targetHit);
-        
-        if (targetHit) {    
-        //starting timer
-        timer += Time.deltaTime;
-            Debug.Log("targetHit");
-            
-        foreach (GameObject flipper in flippers) {
-              if (timer < waitTime) {
-                Debug.Log("flippers deactivated"); 
-                  //Deactivating the flipper script that makes them move
-                flipper.GetComponent<Flipper>().enabled = false;
-             } else {
-                Debug.Log("flippers activated"); 
-                flipper.GetComponent<Flipper>().enabled = true;
-                //Resets settings til the next collision
-                timer = 0;
-                targetHit = false;
-             }
-            }
-        }
+       timer = 0;     
+        //redToken = 
     }
     
-            private void OnTriggerEnter (Collider collider) {        
+            private void OnTriggerEnter(Collider collider) {        
            //if collision with ball
-            if(collider.gameObject.tag == "ball") {
+            if(collider.gameObject.tag == "redToken") {
                 
             //Destroy token
-            Destroy(gameObject);
+                
+            InvokeRepeating("CountDown", 1, 1);
            
-            Debug.Log("Collision blue");
-            targetHit = true;
-                    
+            foreach (GameObject flipper in flippers)
+                flipper.GetComponent<Flipper>().enabled = false;  
+                
             }    
         }
+    
+ public void CountDown() {
+
+         if (timer < 5) {
+    timer++;
+    }
+    else {
+         Debug.Log("flippers reactivated");
+    foreach (GameObject flipper in flippers)
+        flipper.GetComponent<Flipper>().enabled = true; 
+        
+    CancelInvoke(); // Stops all repeating invokes
+    timer = 0;
+
+     }
+   }
 }

@@ -56,6 +56,7 @@
      <Compile Include="Assets\BallCount.cs" />
      <Compile Include="Assets\Bumper.cs" />
      <Compile Include="Assets\CollisionToken.cs" />
+     <Compile Include="Assets\DestroyIndividual.cs" />
      <Compile Include="Assets\DestroyScript.cs" />
      <Compile Include="Assets\DoorActivate.cs" />
      <Compile Include="Assets\ExtraBall.cs" />

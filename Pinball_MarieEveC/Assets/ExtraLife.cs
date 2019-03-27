@@ -22,7 +22,7 @@ public class ExtraLife : MonoBehaviour
         if(collider.gameObject.tag == "ball") {
                 
                 Destroy(gameObject);
-            Debug.Log("collided red");
+           
             lifeNum++;
             
                                           
