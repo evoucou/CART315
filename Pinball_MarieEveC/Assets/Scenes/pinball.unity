@@ -533,8 +533,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294297088
+  m_fontColor: {r: 0, g: 0.7764706, b: 0.9607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1162,7 +1162,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7608
+  m_Name: pb_Mesh14954
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1322,7 +1322,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7956
+  m_Name: pb_Mesh15332
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1790,7 +1790,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7728
+  m_Name: pb_Mesh15072
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4006,7 +4006,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7866
+  m_Name: pb_Mesh15232
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4166,7 +4166,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7782
+  m_Name: pb_Mesh15148
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4326,7 +4326,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7676
+  m_Name: pb_Mesh15022
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5630,7 +5630,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7836
+  m_Name: pb_Mesh15202
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -5997,7 +5997,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7746
+  m_Name: pb_Mesh15090
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7414,7 +7414,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7886
+  m_Name: pb_Mesh15252
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7695,7 +7695,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7648
+  m_Name: pb_Mesh14994
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7885,7 +7885,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7968
+  m_Name: pb_Mesh15344
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8141,7 +8141,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh8002
+  m_Name: pb_Mesh15378
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8645,7 +8645,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7928
+  m_Name: pb_Mesh15304
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8805,7 +8805,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7808
+  m_Name: pb_Mesh15174
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8965,7 +8965,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh7710
+  m_Name: pb_Mesh15056
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10995,6 +10995,11 @@ PrefabInstance:
       propertyPath: clips.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 1d5c98e2acccf42d5acd914bc64f2ed7, type: 3}
+    - target: {fileID: 5079429055003135272, guid: 2c9eaa31ebde147aeae96716aee4892a,
+        type: 3}
+      propertyPath: BypassEffects
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4874450785008475739, guid: 2c9eaa31ebde147aeae96716aee4892a,
         type: 3}
       propertyPath: m_Volume

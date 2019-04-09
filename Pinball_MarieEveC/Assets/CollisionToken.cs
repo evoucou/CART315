@@ -11,7 +11,10 @@ public class CollisionToken : MonoBehaviour
     private AudioSource[] audios;
     public AudioClip[] clips;
         
-    //private Material m_Material;
+    public Material currMaterial;
+    public Material disabled;
+    
+    
     //private bool targetHit;
     
     // THE FLIPPERS OFF SCRIPT CANNOT BE ON THE TOKEN BECAUSE THE TOKEN GETS DESTROYED. Therefore it is the only feature that has to be on the ball.
@@ -26,8 +29,9 @@ public class CollisionToken : MonoBehaviour
         audios[0].clip = clips[0];
         audios[1].clip = clips[1];
         
-        //redToken = 
-        //m_Material = flippers.GetComponent<Renderer>().material;
+//        foreach (GameObject flipper in flippers)
+//        m_Material = flipper.GetComponent<Renderer> ().material.color = Color.green;
+        //m_Color = 
     }
     
             private void OnTriggerEnter(Collider collider) {        
@@ -38,19 +42,15 @@ public class CollisionToken : MonoBehaviour
                 
                                 
             if(collider.gameObject.tag == "RedToken") {
-            //source.PlayOneShot(ticking); 
                 
             audios[1].PlayOneShot(clips[1]);
             InvokeRepeating("CountDown", 1, 1);
         
-                //ticking.Play();
            
-            foreach (GameObject flipper in flippers)
+            foreach (GameObject flipper in flippers) {
                 flipper.GetComponent<Flipper>().enabled = false;  
-                
-                //this.ticking.loop = true;
-                
-                //flipper.m_Material.color = Color.red;       
+                flipper.GetComponent<Renderer>().material = disabled; 
+                }
             } 
             }
    
@@ -66,9 +66,10 @@ public class CollisionToken : MonoBehaviour
          Debug.Log("flippers reactivated");
          audios[1].Stop();
         
-    foreach (GameObject flipper in flippers)
+    foreach (GameObject flipper in flippers) {
+    flipper.GetComponent<Renderer>().material = currMaterial; 
     flipper.GetComponent<Flipper>().enabled = true; 
-
+    }
     //this.ticking.loop = false;
         
     CancelInvoke(); // Stops all repeating invokes
