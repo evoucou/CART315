@@ -6,15 +6,12 @@ public class DestroyScript : MonoBehaviour
 {
     public float destroyTime = 20.0f;
       public float rotateSpeed = 600.0f;
-    
-    //public bool redTokenActive = false;
-    //public bool yellowTokenActive = false;
+
     
     // Start is called before the first frame update
     void Start() {
             Destroy (gameObject, destroyTime);    
-    }
-        
+    }        
     
     void Update() {
         transform.Rotate (Vector3.right * Time.deltaTime * rotateSpeed);     

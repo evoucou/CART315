@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3170132295411727679}
   m_Layer: 0
   m_Name: YellowToken
-  m_TagString: Untagged
+  m_TagString: token
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,3 +127,5 @@ MonoBehaviour:
   ballPrefab: {fileID: 3721162410275096823, guid: 2c9eaa31ebde147aeae96716aee4892a,
     type: 3}
   clonedBall: {fileID: 0}
+  maxForce: 10
+  throwDistance: 10

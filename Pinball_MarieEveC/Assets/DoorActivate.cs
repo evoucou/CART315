@@ -17,6 +17,7 @@ public class DoorActivate : MonoBehaviour
     void OnCollisionExit(Collision collider) {
         
         if(collider.gameObject.tag == "ball") {
+        this.GetComponent<AudioSource>().Play();
             
         if (isUp == false) {
         foreach (GameObject door in doors) {

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,10 +18,13 @@ public class Launcher : MonoBehaviour
         if (Input.GetButton(button))
         {
             this.GetComponent<ConstantForce>().enabled = true;
+            
         }
         else
         {
             this.GetComponent<ConstantForce>().enabled = false;
         }
+        
+        if (Input.GetButtonUp(button)) this.GetComponent<AudioSource>().Play();
     }
 }

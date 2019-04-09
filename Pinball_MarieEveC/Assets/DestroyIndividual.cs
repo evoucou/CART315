@@ -4,12 +4,5 @@ using UnityEngine;
 
 public class DestroyIndividual : MonoBehaviour
 {
-        private void OnTriggerEnter (Collider collider)
-    {
-            
-           if(collider.gameObject.tag == "ball")     
-                Destroy(gameObject);
 
-            
-}
 }

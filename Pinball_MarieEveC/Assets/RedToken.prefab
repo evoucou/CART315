@@ -13,10 +13,9 @@ GameObject:
   - component: {fileID: 4569110764659694669}
   - component: {fileID: 4569110764659694668}
   - component: {fileID: 4569110764659694672}
-  - component: {fileID: 4370317706103658478}
   m_Layer: 0
   m_Name: RedToken
-  m_TagString: redToken
+  m_TagString: RedToken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,15 +106,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 3, z: 1.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4370317706103658478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4569110764659694666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd8b539cff474be59b335754bc0d70b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

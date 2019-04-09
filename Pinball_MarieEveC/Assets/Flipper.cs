@@ -6,19 +6,12 @@ public class Flipper : MonoBehaviour
 {
     public string button = "LeftFlipper";
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void FixedUpdate()
     {
         if (Input.GetButton(button))
         {
             this.GetComponent<HingeJoint>().useMotor = true;
-            //Score.score = 0;
         }
         else
         {

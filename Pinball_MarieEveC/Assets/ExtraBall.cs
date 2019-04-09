@@ -13,22 +13,15 @@ public class ExtraBall : MonoBehaviour
     //private int spawnIndex;
     //var ballPrefab : Transform
     
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    
+        public float maxForce = 10;
+    public float throwDistance = 10;
+    private AudioSource throwSound;
     
         private void OnTriggerEnter (Collider collider)
     {
                            int spawnIndex = Random.Range(0, ballSpawnPoints.Length);
             
            if(collider.gameObject.tag == "ball") {
-              
-                
-                Destroy(gameObject);
            // Debug.Log("collided yellow");
 
   

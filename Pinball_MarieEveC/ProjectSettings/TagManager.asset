@@ -6,8 +6,8 @@ TagManager:
   tags:
   - ball
   - flipper
-  - BlueToken
-  - redToken
+  - token
+  - RedToken
   layers:
   - Default
   - TransparentFX
