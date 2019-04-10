@@ -1,0 +1,25 @@
+Last journal concerning the final version, due on Wednesday April 10th
+
+What has been added or improved for the final version
+- Lots of cool sounds were added, as well as a pinball-themed music.
+- Color coding, as suggested by a student, with the extra life token and the extra life text so we understand better (both the same blue.
+- Player gets more feedback from the game;
+  - When flippers are deactivated, they are transparent and there is a ticking sound.
+  - When player collects a coin, a message appears on the screen such as "extra life!" or "extra ball!"
+- The ball's fluidity has been improved so now you can easily get it everywhere on the board to collect coins.
+- There was one problem that was brought to my attention by Joachim; having more than one balls was not necessarily a good thing,
+so I had to find a way to make it a good thing. I decided to add a new feature. While it is very risky to add anything at this stage of
+the game, I am confident that it was necessary in order to fix that problem. So, the implemented feature is that, when you
+have three balls or more on the board, two smaller other bumpers appear;
+   - The player can see them at the beginning of the game because they are transparent, but he does not necessarily know how to trigger them
+   - I want him to explore my game, which is why I haven't clearly explained everything from the beginning. However, the player has
+enough feedback from the game so that he does not get bored or discouraged.
+- Overall, the whole esthetic appearance was improved. It now looks like a real pinball machine!
+- I have also added a very basic menu screen at the beginning whiche explains the commands mostly.
+- Another rather important change that I made; I played with the code responsible for spawning the tokens so that they never spawn at the
+same spot.
+
+Overall, I have worked as hard as I could to deliver a game that gives the player enough feedback while not giving away all the answers.
+I hope that the esthetics and sounds make it a bit more fun to play, and that the very little UI part makes it more interactive and real.
+There is no way to lose, therefore you can play as much as you want! I am confident that the code works well, however, I think it is normal
+to expect that will still be some minor bugs.
