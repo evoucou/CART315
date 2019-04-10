@@ -1,0 +1,53 @@
+
+Journal for third playtest on March 27th
+Pinball game project
+
+Suggestions from last playtest
+- Everytime you lose a ball, wether last one or not, the multiplier resets to 1, or else it is too easy to get a very high score.
+- There could be a token that does something bad, so that you actually do not want too many balls or it will disadvantage you.
+
+What has been added for this playtest
+- When you lose one ball, the multiplier resets to zero.
+- A blue token has been added, however, the special features have been switched around;
+  - The red token disables the flippers (new feature that has been added for this playtests).
+  - Before, the red token made an extra ball appear. Now, the blue token is responsible for that.
+  - I used the red token because red most of the time equals to bad, or danger. (disabled flippers is bad)
+  - The yellow token still gives the player an extra life. That hasn't changed.
+- The esthetics of the board have been slightly improved and the structure changed a little bit.
+  - The bumpers have been moved so that their emplacement is more strategic (makes tokens collection possible or easier, or in a bad way
+  so it sends the ball to the side corridors, for instance)
+- I added two corridors on each side of the board which the player should avoid, because when the ball falls into them, it goes under
+your flippers and therefore you lose the ball.
+  - However, these corridors can be blocked with red "doors" that go up and down with a red round pressure plate, which is triggered
+  by the ball.
+  
+Positive aspects about playtest experience
+- Cool implementations of the three different tokens.
+
+Aspects to improve or suggestions for final
+- There could be a sound when player collects a token (maybe a different one for each color)
+- Hard to tell which token does what. This could be resolved with color coding, such as the extra life text is yellow just like the token.
+- Player needs more feedback; example, when the flippers are deactivated, they should change aspect visually while they are off.
+- Right now, multiple balls feel like it is not necessarily a good thing but rather a bad thing, because the more you have, the harder it
+is to keep your multiplier and get a high score. Maybe find a way to make multiple balls an asset?
+- It is a little hard to get the ball to the top of the board.
+- The extra life text is overlapping with the score text.
+
+Bugs that were encountered
+- The ball got stuck in the narrow space between the door blocking the corridor and the wall underneath.
+- When the ball resets, it sometimes bounces over the spring and lands under it at the bottom of the board (we cannot access it anymore)
+
+What I still have to work on (what hasn't been implemented since last playtest and still isn't)
+
+----MANDATORY
+- Work on the tokens' spawning timer (has to be in relation to collision with ball and token. When one is collected, the spawntimer
+should reset to zero so that one doesn't reappear right away.)
+
+----DETAILS
+- Modify the board to make it more esthetic (new bumpers, new flippers, textures, etc.)
+- Improve ball behaviour (lighter/faster? Bouncier?)
+- Possibly a fourth token?
+
+Overall
+The playtest went well, however I really should focus on feedback as there currently isn't a lot. Players should be able to understand what
+the tokens do right away, and should identifiy which ones are bad and which ones are good.
