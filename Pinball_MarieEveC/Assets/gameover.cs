@@ -32,11 +32,14 @@ private void OnTriggerEnter(Collider collider)
             
             if(BallCount.count > 1){
             Destroy(collider.gameObject);
-                Score.multiplier = 1;
+            Score.multiplier = 1;
             }            
-            else {
-            ExtraLife.lifeNum--;           
+            else if (BallCount.count == 1){
+            if (ExtraLife.lifeNum > 0)
+                ExtraLife.lifeNum--; 
+                
             collider.gameObject.transform.position = initialposition;
+            Score.multiplier = 1;
           } 
         }
     }

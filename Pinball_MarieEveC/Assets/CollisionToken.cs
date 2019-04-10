@@ -57,13 +57,10 @@ public class CollisionToken : MonoBehaviour
         }
     
  public void CountDown() {
-
-         if (timer < 5) {
+     if (timer < 5) {
     timer++;
     }
     else {
-        //ticking.Stop();
-         Debug.Log("flippers reactivated");
          audios[1].Stop();
         
     foreach (GameObject flipper in flippers) {
@@ -76,6 +73,6 @@ public class CollisionToken : MonoBehaviour
     timer = 0;
 
      }
-   }
+ }
     
 }

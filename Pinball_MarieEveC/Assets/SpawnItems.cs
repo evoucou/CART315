@@ -45,7 +45,7 @@ public class SpawnItems : MonoBehaviour
             oldPosition = i;
             i=TokenIndex.Length;
         }    
-       }else
+       } else
        {
        newToken= Instantiate (Tokens[objectIndex], SpawnPoints [spawnIndex].position, SpawnPoints [spawnIndex].rotation);
          oldPosition = spawnIndex;

@@ -23,12 +23,14 @@ public class DoorActivate : MonoBehaviour
         foreach (GameObject door in doors) {
         // doors activated
         door.transform.position += new Vector3(0f, 0.5f, 0f);
+        door.GetComponent<Collider>().enabled = true;
        isUp = true;
             }
         } else {
         foreach (GameObject door in doors) {
         // doors deactivated
-        door.transform.position += new Vector3(0f, -0.5f, 0f);  
+        door.transform.position += new Vector3(0f, -0.5f, 0f);
+        door.GetComponent<Collider>().enabled = false;
         isUp = false;
                 }     
             }
