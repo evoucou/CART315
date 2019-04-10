@@ -53,35 +53,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BallCount.cs" />
-     <Compile Include="Assets\Bumper.cs" />
-     <Compile Include="Assets\CollisionToken.cs" />
-     <Compile Include="Assets\DestroyIndividual.cs" />
-     <Compile Include="Assets\DestroyScript.cs" />
-     <Compile Include="Assets\DoorActivate.cs" />
-     <Compile Include="Assets\ExtraBall.cs" />
-     <Compile Include="Assets\ExtraLife.cs" />
-     <Compile Include="Assets\Flipper.cs" />
-     <Compile Include="Assets\gameover.cs" />
-     <Compile Include="Assets\Launcher.cs" />
-     <Compile Include="Assets\life.cs" />
-     <Compile Include="Assets\Rotate.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <Compile Include="Assets\Score.cs" />
-     <Compile Include="Assets\SpawnItems.cs" />
+     <Compile Include="Assets\Scripts\BallCount.cs" />
+     <Compile Include="Assets\Scripts\Bumper.cs" />
+     <Compile Include="Assets\Scripts\CollisionToken.cs" />
+     <Compile Include="Assets\Scripts\DestroyIndividual.cs" />
+     <Compile Include="Assets\Scripts\DestroyScript.cs" />
+     <Compile Include="Assets\Scripts\DoorActivate.cs" />
+     <Compile Include="Assets\Scripts\ExtraBall.cs" />
+     <Compile Include="Assets\Scripts\ExtraLife.cs" />
+     <Compile Include="Assets\Scripts\FlashingText.cs" />
+     <Compile Include="Assets\Scripts\Flipper.cs" />
+     <Compile Include="Assets\Scripts\gameover.cs" />
+     <Compile Include="Assets\Scripts\Launcher.cs" />
+     <Compile Include="Assets\Scripts\life.cs" />
+     <Compile Include="Assets\Scripts\Play.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\SpawnItems.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
@@ -93,7 +86,6 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>/Users/Marie-Eve/Desktop/CART315/Pinball_MarieEveC/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
@@ -679,10 +671,6 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{935CE4E7-6653-68FD-3007-CC8E84337E23}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
